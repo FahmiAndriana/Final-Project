@@ -567,6 +567,18 @@ img{
     width: 60%;
 } 
 
+.skills_mongodb{
+    width: 70%;
+}
+
+.skills_mysql{
+    width: 70%;
+}
+
+.skills_sqllite{
+    width: 60%;
+}
+
 .skills_close .skills_list{
     height: 0;
     overflow: hidden;
@@ -654,7 +666,7 @@ img{
 /*==================== SERVICES ====================*/
 .services_container{
     gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    
 }
 
 .services_content{
@@ -934,6 +946,8 @@ img{
     .services_container{
         grid-template-columns: max-content;
         justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        
     }
     .services_content{
         padding-right: 3.5rem;
@@ -1067,7 +1081,10 @@ img{
     }
 
     .services_modal-content{
-        width: 450px ;
+        width: 320px ;
+    }
+    .portfolio_modal{
+        width: 350px ;
     }
 
     .footer_container{
@@ -1086,6 +1103,9 @@ img{
     }
     .footer_copy{
         margin-top: 4.5rem;
+    }
+    .services_container{
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
@@ -1109,6 +1129,10 @@ img{
         width: 460px;
     }
     .contact_inputs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services_container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
