@@ -29,11 +29,7 @@
 
                             </div>
                         </div>
-                        <div class="about_buttons">
-                            <a download="" href="src/assets/pdf/CV.pdf" class="button button-flex">
-                                Download CV<i class="uil uil-download-alt button_icon"></i>
-                            </a>
-                        </div>
+                       
 
                     </div>
                 </div>
