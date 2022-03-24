@@ -5,8 +5,8 @@
                     <div class="hero-image" >
                         <div class="hero-text">
                             <div class="">
-                                <h1 class="hero_title" >{{ info[0].name }}</h1>
-                                <h3 class="hero_subtitle">{{ info[0].title }}</h3>
+                                <h1 class="hero_title" >Fahmi Andriana</h1>
+                                <h3 class="hero_subtitle">Fullstack Developer</h3>
                             </div>
                         </div>
                     </div>            
@@ -28,12 +28,7 @@ export default {
             img: img
 
         }
-    },
-    props:{
-        info:{
-             type: Array,
-             default: () => []
-        }
     }
+    
 }
 </script>
